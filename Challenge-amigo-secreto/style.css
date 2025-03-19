@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #92e0ff;
+    --color-secondary: #410445;
+    --color-tertiary: #f08abd;
+    --color-button: #f08abd;
+    --color-button-hover: #3180f7;
+    --color-text: #ffffff;
+    --color-white: #000000;
 }
 
 /* Estilos gerais */
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #252201;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -157,6 +157,10 @@ ul {
     margin-right: 40px;
 }
 
+.imagem-amigo-secreto {
+    width: 400px; 
+    height: auto; 
+}
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
